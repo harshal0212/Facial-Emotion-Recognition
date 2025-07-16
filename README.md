@@ -26,7 +26,7 @@ A high-performance real-time facial emotion recognition system built with Python
 
 1. **Clone the repository**
    ```bash
-   git clone https://github.com/yourusername/facial-emotion-recognition.git
+   git clone https://github.com/harshal0212/facial-emotion-recognition.git
    cd facial-emotion-recognition
    ```
 
