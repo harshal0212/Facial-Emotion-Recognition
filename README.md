@@ -13,7 +13,6 @@ A high-performance real-time facial emotion recognition system built with Python
 - **High Performance**: Optimized for maximum FPS with efficient processing
 - **Modern GUI**: Dark-themed Tkinter interface with responsive design
 - **Live Monitoring**: Real-time FPS counter and performance metrics
-- **Emotion Trends**: Analysis and visualization of emotion patterns
 - **Confidence Scoring**: Detailed confidence scores for each detected emotion
 - **Cross-platform**: Works on Windows, macOS, and Linux
 
@@ -22,11 +21,8 @@ A high-performance real-time facial emotion recognition system built with Python
 - Python 3.8 or higher
 - Webcam access
 - Sufficient RAM (4GB+ recommended)
-- GPU support (optional, for enhanced performance)
 
 ## 🛠️ Installation
-
-### Prerequisites
 
 1. **Clone the repository**
    ```bash
@@ -50,14 +46,6 @@ A high-performance real-time facial emotion recognition system built with Python
    pip install -r requirements.txt
    ```
 
-### Dependencies
-
-The following packages will be installed:
-- `opencv-python>=4.8.0` - Computer vision and video processing
-- `deepface>=0.0.79` - Deep learning-based emotion recognition
-- `numpy>=1.21.0` - Numerical computing
-- `Pillow>=9.0.0` - Image processing
-
 ## 🎯 Usage
 
 1. **Run the application**
@@ -70,11 +58,6 @@ The following packages will be installed:
    - View detected emotions and confidence scores on the video feed
    - Monitor live FPS and performance metrics
    - Click **⏹ Stop Detection** to end the session
-
-3. **Performance Tips**
-   - Ensure good lighting for better accuracy
-   - Position your face clearly in the camera view
-   - Close unnecessary applications to free up system resources
 
 ## 📊 Features in Detail
 
@@ -94,29 +77,6 @@ The following packages will be installed:
 - **Real-time Stats**: Live FPS counter and emotion display
 - **Responsive Design**: Adapts to different screen sizes
 - **Status Indicators**: Clear feedback on system status
-
-## 🔧 Configuration
-
-### Customization Options
-
-You can modify the following parameters in `app.py`:
-
-```python
-# Emotion update interval (seconds)
-self.emotion_update_interval = 0.8
-
-# Frame resize dimensions
-frame = cv2.resize(frame, (640, 480))
-
-# GUI window size
-self.root.geometry('1000x800')
-```
-
-### Performance Tuning
-
-- **Increase FPS**: Reduce `emotion_update_interval` or frame resolution
-- **Improve Accuracy**: Increase `emotion_update_interval` for more frequent analysis
-- **Memory Usage**: Adjust frame buffer size based on available RAM
 
 ## 🏗️ Project Structure
 
@@ -141,31 +101,13 @@ To test the system:
 
 ## 🤝 Contributing
 
-We welcome contributions! Please follow these steps:
+We welcome contributions! Please:
 
-1. **Fork the repository**
-2. **Create a feature branch**
-   ```bash
-   git checkout -b feature/your-feature-name
-   ```
-3. **Make your changes**
-4. **Test thoroughly**
-5. **Commit your changes**
-   ```bash
-   git commit -m "Add: your feature description"
-   ```
-6. **Push to the branch**
-   ```bash
-   git push origin feature/your-feature-name
-   ```
-7. **Create a Pull Request**
-
-### Development Guidelines
-
-- Follow PEP 8 style guidelines
-- Add comments for complex logic
-- Update documentation for new features
-- Test on multiple platforms if possible
+1. Fork the repository
+2. Create a feature branch (`git checkout -b feature/amazing-feature`)
+3. Commit your changes (`git commit -m 'Add amazing feature'`)
+4. Push to the branch (`git push origin feature/amazing-feature`)
+5. Open a Pull Request
 
 ## 🐛 Troubleshooting
 
@@ -186,11 +128,6 @@ We welcome contributions! Please follow these steps:
 - Install Visual C++ build tools (Windows)
 - Use conda instead of pip if needed
 
-**Memory issues:**
-- Increase system RAM
-- Reduce frame buffer size
-- Close other memory-intensive applications
-
 ## 📄 License
 
 This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
@@ -203,20 +140,10 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 
 ## 📞 Support
 
-If you encounter any issues or have questions:
-
+If you encounter any issues:
 1. Check the [Issues](https://github.com/yourusername/facial-emotion-recognition/issues) page
 2. Create a new issue with detailed information
 3. Include your system specifications and error messages
-
-## 🔮 Future Enhancements
-
-- [ ] Support for multiple faces
-- [ ] Emotion history tracking
-- [ ] Export functionality for analysis data
-- [ ] Mobile app version
-- [ ] API for integration with other applications
-- [ ] Custom emotion models training
 
 ---
 
